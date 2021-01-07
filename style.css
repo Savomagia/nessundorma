@@ -93,9 +93,9 @@ button {
 }
 .btn-link:hover,
 .btn-link:active {
-    background: -webkit-radial-gradient(33% 100% circle,  #D92E7F 62%, #9B36B7 85%, #515ECF 100%);
-    background: radial-gradient(circle at 33% 100%,  #D92E7F 62%, #9B36B7 85%, #515ECF 100%);
+    cursor: pointer;
+    background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;     
 }
 
